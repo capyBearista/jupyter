@@ -4,11 +4,11 @@ Hi there! 👋
 
 This is a personal project where I'm exploring text and vote data on bills introduced in the United States Congress. I found this dataset through Brown University's LUNAR Lab and thought it would be a great way to learn more about language, politics, and a little bit of NLP along the way.
 
-## Why This Repo Exists
+### Why This Repo Exists
 
 I'm a student (not at Brown) with a growing interest in AI / ML, but I'm still pretty new to Python and all the tools that come with it. This repo is mostly a place for me to experiment, try things out, and see what I can discover. Maybe down the line, I'll have some cool findings to share :)
 
-## Project Structure
+### Project Structure
 
 The dataset is absolutely gargantuan, so here's an abstracted project structure:
 
@@ -66,7 +66,7 @@ congressional-bills/
 - **lm/**: Language modeling scripts and data, including tools for working with official and short titles.
 - **processing/**: Scripts for cleaning, extracting, and preparing data. The `parsing/` subfolder contains more specialized scripts and data for parsing bill titles and related information.
 
-## What I'm Curious About
+### What I'm Curious About
 
 LUNAR Lab's page poses a few interesting questions, specifically, I'm look at:
 
@@ -76,17 +76,15 @@ LUNAR Lab's page poses a few interesting questions, specifically, I'm look at:
 2. **Are there patterns in how "short titles" are used for congressional bills?**
    - Is there a way to predict or generate a short title from a longer, official bill title? What trends or quirks show up in the data? I'd ultimately like to be able to generate short titles from the official ones.
 
-## Getting Started (If You're Like Me)
-
-If you somehow happen upon this repository and are also new to Python or just curious, feel free to poke around. I'm still figuring things out, so this repo might be a bit messy or experimental. Maybe you'll find something interesting, or maybe you'll have ideas for what to try next. I'd love to hear from you!
-
-
-
-## Important Links
+### Important Links
 
 LUNAR Lab Starter Projects: https://cs.brown.edu/people/epavlick/join-us.html
 
 Dataset: https://cs.brown.edu/people/epavlick/congressional-bills.tgz
+
+### Getting Started (If You're Like Me)
+
+If you somehow happen upon this repository and are also new to Python or just curious, feel free to poke around. I'm still figuring things out, so this repo might be a bit messy or experimental. Maybe you'll find something interesting, or maybe you'll have ideas for what to try next. I'd love to hear from you!
 
 ---
 
