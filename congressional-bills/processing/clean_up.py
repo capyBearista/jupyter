@@ -11,5 +11,5 @@ for line in sys.stdin:
   shorttitle = re.sub('\d\d\d\d', 'YEAR', shorttitle)
   if shorttitle not in seen:
     seen.add(shorttitle)
-    print '\t'.join([congress, bid, body, topic, summary, longtitle, shorttitle])
+    print('\t'.join([congress, bid, body, topic, summary, longtitle, shorttitle]))
 

@@ -15,4 +15,4 @@ for i,line in enumerate(sys.stdin):
   llp = longs[bid]
   slp = shorts[bid]
   diff = llp - slp
-  print '%.04f\t%.02f\t%.02f\t%s\t%s\t%s'%(diff, llp, slp, topic, longtitle, shorttitle)
+  print('%.04f\t%.02f\t%.02f\t%s\t%s\t%s'%(diff, llp, slp, topic, longtitle, shorttitle))

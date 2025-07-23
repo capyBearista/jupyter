@@ -34,7 +34,7 @@ for _cong in range(93, 115):
                 summary = (' '.join(data['summary']['text'].split())).encode('ascii', 'ignore')
                 try:
                   #print '\t'.join([congress, bill, bill_type, topic, title, summary, json.dumps(titles).encode('ascii', 'ignore')])
-                  print '\t'.join([congress, bill, bill_type, topic, summary, title, shorttitle])
+                  print('\t'.join([congress, bill, bill_type, topic, summary, title, shorttitle]))
                 except TypeError:
                    sys.stderr.write("ValueError: %s\n"%('\t'.join([bill])))
                    #pdb.set_trace()

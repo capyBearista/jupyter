@@ -24,6 +24,6 @@ for cong in os.listdir('.'):
 #            else:
 #              popular_title = 'NA'
 #            print '\t'.join([congress, introduced_at, number, bill_id, bill_type, congress, official_title, popular_title])
-            print '\t'.join([congress, introduced_at, number, bill_id, bill_type, titles])
+            print('\t'.join([congress, introduced_at, number, bill_id, bill_type, titles]))
 
 

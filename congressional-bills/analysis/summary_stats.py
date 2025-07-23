@@ -39,7 +39,7 @@ for i,line in enumerate(sys.stdin):
       ttrs[topic][nm][0].add(w)
       ttrs[topic][nm][1] += 1
 
-print '\t'.join([pad('topic'), 'N', 'llen', 'slen', 'lttr', 'sttr', 'sprob'])
+print('\t'.join([pad('topic'), 'N', 'llen', 'slen', 'lttr', 'sttr', 'sprob']))
 
 for topic in sorted(lengths, key=lambda e: len(lengths[e]['long']), reverse=True):
 
@@ -59,6 +59,6 @@ for topic in sorted(lengths, key=lambda e: len(lengths[e]['long']), reverse=True
   slen = sum(slens)/len(slens)
   sttr = len(styp)/stok
  
-  print '%s\t%d\t%.01f\t%.01f\t%.04f\t%.04f\t%.04f'%(pad(topic), len(llens), llen, slen, lttr, sttr, sprob) 
+  print('%s\t%d\t%.01f\t%.01f\t%.04f\t%.04f\t%.04f'%(pad(topic), len(llens), llen, slen, lttr, sttr, sprob)) 
 
   

@@ -11,7 +11,7 @@ if split_sentences:
       s = ' '.join(toks)
       s = re.sub('YEAR', '####', s)
       s = re.sub('\d', '#', s)
-      print s.lower()
+      print(s.lower())
 
 else:
   for sent in sys.stdin:
@@ -19,4 +19,4 @@ else:
     s = ' '.join(toks)
     s = re.sub('YEAR', '####', s)
     s = re.sub('\d', '#', s)
-    print s.lower()
+    print(s.lower())

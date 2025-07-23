@@ -31,5 +31,5 @@ for i,line in enumerate(sys.stdin):
       titleblob['title_lc'] = ' '.join(lctoks) 
       titleblob['title_pos'] = ' '.join(tags) 
       processed_titles.append(titleblob)
-    print '\t'.join([sess, date, num, bid, btype, json.dumps(processed_titles)])
+    print('\t'.join([sess, date, num, bid, btype, json.dumps(processed_titles)]))
   

@@ -11,7 +11,7 @@ for i,line in enumerate(sys.stdin):
     if float(elems[1]) >= 50:
       lines.append(elems)
   else:
-    print line
+    print(line)
 
 for l in sorted(lines, key=lambda e:float(e[idx]), reverse=True):
-  print '\t'.join(l)
+  print('\t'.join(l))
