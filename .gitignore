@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Data and intermediate files
+*.tgz
+*.tar.gz
+*.zip
+*.gz
+*.tar
+*.log
+*.o*
+*.out
+
+# Large data directories (generated/intermediate)
+congressional-bills/intermediate-pos-files/
+congressional-bills/parsing/logs/
+congressional-bills/parsing/metadata/
+congressional-bills/parsing/titles-parsed/
+congressional-bills/parsing/titles-raw/
+
+# Model and language model files
+congressional-bills/lm/*.arpa
+congressional-bills/lm/*.lctok
+congressional-bills/lm/official_titles/
+congressional-bills/lm/short_titles/
+
+# Text and summary outputs
+congressional-bills/analysis/*.txt
+congressional-bills/analysis/old/*.txt
+congressional-bills/*.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# OneDrive/Windows sync files
+~$*
+*.tmp
+
+# Plots and images
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Additional large files
+congressional-bills/lm/bill_summaries.txt
+congressional-bills/lm/bill_summaries.vocab
+
+# Ignore everything in processing/ recursively
+congressional-bills/processing/**
+# But track all .py and .sh files in processing/ and subdirs
+!congressional-bills/processing/**/*.py
+!congressional-bills/processing/**/*.sh
+
+# Ensure all .py and .sh files are tracked everywhere else
+!**/*.py
+!**/*.sh
