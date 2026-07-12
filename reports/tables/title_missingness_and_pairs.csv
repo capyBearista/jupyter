@@ -1,0 +1,7 @@
+diagnostic,count,denominator
+missing_official_title,276,345477
+missing_popular_title,342667,345477
+missing_short_title,225679,345477
+official_and_short_both_missing,276,345477
+official_and_short_equal,2,345477
+official_and_short_distinct_or_one_missing,345199,345477

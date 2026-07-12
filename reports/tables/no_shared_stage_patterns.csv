@@ -1,0 +1,141 @@
+official_matching_stages_json,short_matching_stages_json,count,denominator_no_shared_stage
+"[""agreed to by house and senate""]","[""enacted""]",1,4664
+"[""agreed to by house and senate""]","[""introduced"", ""reported to senate"", ""passed senate""]",1,4664
+"[""amended by house"", ""amended by senate""]","[""enacted""]",1,4664
+"[""amended by house"", ""amended by senate""]","[""passed house"", ""enacted""]",1,4664
+"[""amended by house""]","[""enacted""]",8,4664
+"[""amended by house""]","[""introduced"", ""enacted""]",1,4664
+"[""amended by house""]","[""introduced"", ""passed house"", ""enacted""]",2,4664
+"[""amended by house""]","[""introduced"", ""passed house"", ""passed senate"", ""enacted""]",9,4664
+"[""amended by house""]","[""introduced"", ""passed house"", ""passed senate""]",1,4664
+"[""amended by house""]","[""introduced"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",1,4664
+"[""amended by house""]","[""introduced"", ""passed house""]",45,4664
+"[""amended by house""]","[""introduced"", ""passed senate"", ""enacted""]",2,4664
+"[""amended by house""]","[""introduced"", ""passed senate""]",3,4664
+"[""amended by house""]","[""introduced"", ""reported to house"", ""passed house"", ""enacted""]",5,4664
+"[""amended by house""]","[""introduced"", ""reported to house"", ""passed house"", ""passed senate"", ""enacted""]",12,4664
+"[""amended by house""]","[""introduced"", ""reported to house"", ""passed house"", ""passed senate""]",2,4664
+"[""amended by house""]","[""introduced"", ""reported to house"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",2,4664
+"[""amended by house""]","[""introduced"", ""reported to house"", ""passed house"", ""reported to senate""]",5,4664
+"[""amended by house""]","[""introduced"", ""reported to house"", ""passed house""]",84,4664
+"[""amended by house""]","[""introduced"", ""reported to house""]",11,4664
+"[""amended by house""]","[""introduced"", ""reported to senate"", ""passed senate""]",1,4664
+"[""amended by house""]","[""introduced"", ""reported to senate""]",1,4664
+"[""amended by house""]","[""introduced""]",21,4664
+"[""amended by house""]","[""passed house"", ""enacted""]",2,4664
+"[""amended by house""]","[""passed house"", ""passed senate"", ""enacted""]",13,4664
+"[""amended by house""]","[""passed house"", ""reported to senate"", ""enacted""]",1,4664
+"[""amended by house""]","[""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",4,4664
+"[""amended by house""]","[""passed house"", ""reported to senate""]",4,4664
+"[""amended by house""]","[""passed house""]",60,4664
+"[""amended by house""]","[""passed senate"", ""enacted""]",12,4664
+"[""amended by house""]","[""reported to house"", ""passed house"", ""enacted""]",6,4664
+"[""amended by house""]","[""reported to house"", ""passed house"", ""passed senate"", ""enacted""]",5,4664
+"[""amended by house""]","[""reported to house"", ""passed house"", ""passed senate""]",2,4664
+"[""amended by house""]","[""reported to house"", ""passed house"", ""reported to senate"", ""enacted""]",1,4664
+"[""amended by house""]","[""reported to house"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",1,4664
+"[""amended by house""]","[""reported to house"", ""passed house"", ""reported to senate""]",1,4664
+"[""amended by house""]","[""reported to house"", ""passed house""]",52,4664
+"[""amended by house""]","[""reported to house""]",4,4664
+"[""amended by house""]","[""reported to senate"", ""passed senate"", ""enacted""]",1,4664
+"[""amended by house""]","[""reported to senate"", ""passed senate""]",2,4664
+"[""amended by house""]","[""reported to senate""]",6,4664
+"[""amended by senate""]","[""enacted""]",43,4664
+"[""amended by senate""]","[""introduced"", ""enacted""]",5,4664
+"[""amended by senate""]","[""introduced"", ""passed house"", ""enacted""]",3,4664
+"[""amended by senate""]","[""introduced"", ""passed house"", ""passed senate"", ""enacted""]",8,4664
+"[""amended by senate""]","[""introduced"", ""passed house"", ""passed senate""]",2,4664
+"[""amended by senate""]","[""introduced"", ""passed house"", ""reported to senate"", ""enacted""]",2,4664
+"[""amended by senate""]","[""introduced"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",9,4664
+"[""amended by senate""]","[""introduced"", ""passed house"", ""reported to senate"", ""passed senate""]",2,4664
+"[""amended by senate""]","[""introduced"", ""passed house""]",4,4664
+"[""amended by senate""]","[""introduced"", ""passed senate"", ""enacted""]",9,4664
+"[""amended by senate""]","[""introduced"", ""passed senate""]",12,4664
+"[""amended by senate""]","[""introduced"", ""reported to house"", ""passed house"", ""enacted""]",1,4664
+"[""amended by senate""]","[""introduced"", ""reported to house"", ""passed house"", ""passed senate"", ""enacted""]",5,4664
+"[""amended by senate""]","[""introduced"", ""reported to house"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",5,4664
+"[""amended by senate""]","[""introduced"", ""reported to house"", ""passed house"", ""reported to senate"", ""passed senate""]",1,4664
+"[""amended by senate""]","[""introduced"", ""reported to house"", ""passed house""]",3,4664
+"[""amended by senate""]","[""introduced"", ""reported to house"", ""passed senate"", ""enacted""]",1,4664
+"[""amended by senate""]","[""introduced"", ""reported to house"", ""reported to senate"", ""passed senate"", ""enacted""]",1,4664
+"[""amended by senate""]","[""introduced"", ""reported to house""]",1,4664
+"[""amended by senate""]","[""introduced"", ""reported to senate"", ""passed house"", ""passed senate"", ""enacted""]",3,4664
+"[""amended by senate""]","[""introduced"", ""reported to senate"", ""passed senate"", ""enacted""]",3,4664
+"[""amended by senate""]","[""introduced"", ""reported to senate"", ""passed senate""]",36,4664
+"[""amended by senate""]","[""introduced"", ""reported to senate""]",3,4664
+"[""amended by senate""]","[""introduced""]",18,4664
+"[""amended by senate""]","[""passed house"", ""enacted""]",18,4664
+"[""amended by senate""]","[""passed house"", ""passed senate"", ""enacted""]",14,4664
+"[""amended by senate""]","[""passed house"", ""passed senate""]",1,4664
+"[""amended by senate""]","[""passed house"", ""reported to senate"", ""enacted""]",1,4664
+"[""amended by senate""]","[""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",6,4664
+"[""amended by senate""]","[""passed house"", ""reported to senate"", ""passed senate""]",1,4664
+"[""amended by senate""]","[""passed house""]",3,4664
+"[""amended by senate""]","[""passed senate"", ""enacted"", ""conference report""]",1,4664
+"[""amended by senate""]","[""passed senate"", ""enacted"", null]",1,4664
+"[""amended by senate""]","[""passed senate"", ""enacted""]",61,4664
+"[""amended by senate""]","[""passed senate""]",48,4664
+"[""amended by senate""]","[""reported to house"", ""passed house"", ""enacted""]",3,4664
+"[""amended by senate""]","[""reported to house"", ""passed house"", ""passed senate"", ""enacted""]",1,4664
+"[""amended by senate""]","[""reported to house"", ""passed house"", ""passed senate""]",1,4664
+"[""amended by senate""]","[""reported to house"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",1,4664
+"[""amended by senate""]","[""reported to senate"", ""enacted""]",2,4664
+"[""amended by senate""]","[""reported to senate"", ""passed senate"", ""enacted""]",13,4664
+"[""amended by senate""]","[""reported to senate"", ""passed senate""]",41,4664
+"[""amended by senate""]","[""reported to senate""]",4,4664
+"[""amended by senate""]",[null],1,4664
+"[""enacted""]","[""introduced"", ""passed house"", ""passed senate""]",3,4664
+"[""enacted""]","[""introduced"", ""passed house"", ""reported to senate"", ""passed senate""]",1,4664
+"[""enacted""]","[""introduced"", ""passed house""]",4,4664
+"[""enacted""]","[""introduced"", ""passed senate""]",11,4664
+"[""enacted""]","[""introduced"", ""reported to house"", ""passed house"", ""passed senate""]",1,4664
+"[""enacted""]","[""introduced"", ""reported to house"", ""passed house""]",1,4664
+"[""enacted""]","[""introduced"", ""reported to senate"", ""passed senate""]",2,4664
+"[""enacted""]","[""introduced"", ""reported to senate""]",1,4664
+"[""enacted""]","[""introduced""]",294,4664
+"[""enacted""]","[""passed house"", ""passed senate""]",2,4664
+"[""enacted""]","[""passed house"", ""reported to senate"", ""passed senate""]",1,4664
+"[""enacted""]","[""passed house""]",23,4664
+"[""enacted""]","[""passed senate""]",47,4664
+"[""enacted""]","[""reported to house"", ""passed house"", ""reported to senate"", ""passed senate""]",3,4664
+"[""enacted""]","[""reported to house"", ""passed house""]",1,4664
+"[""enacted""]","[""reported to senate"", ""passed senate""]",3,4664
+"[""enacted""]","[""reported to senate""]",1,4664
+"[""enacted""]",[null],1,4664
+"[""introduced"", ""amended by senate""]","[""reported to senate""]",1,4664
+"[""introduced"", ""other bill versions""]",[null],1,4664
+"[""introduced""]","[""enacted"", null]",2,4664
+"[""introduced""]","[""enacted""]",306,4664
+"[""introduced""]","[""passed house"", ""enacted""]",187,4664
+"[""introduced""]","[""passed house"", ""passed senate"", ""enacted""]",91,4664
+"[""introduced""]","[""passed house"", ""passed senate""]",22,4664
+"[""introduced""]","[""passed house"", ""reported to senate"", ""enacted""]",2,4664
+"[""introduced""]","[""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",43,4664
+"[""introduced""]","[""passed house"", ""reported to senate"", ""passed senate""]",13,4664
+"[""introduced""]","[""passed house"", ""reported to senate""]",12,4664
+"[""introduced""]","[""passed house""]",498,4664
+"[""introduced""]","[""passed senate"", ""enacted"", null]",1,4664
+"[""introduced""]","[""passed senate"", ""enacted""]",215,4664
+"[""introduced""]","[""passed senate""]",364,4664
+"[""introduced""]","[""reported to house"", ""enacted""]",2,4664
+"[""introduced""]","[""reported to house"", ""passed house"", ""enacted""]",56,4664
+"[""introduced""]","[""reported to house"", ""passed house"", ""passed senate"", ""enacted""]",54,4664
+"[""introduced""]","[""reported to house"", ""passed house"", ""passed senate""]",6,4664
+"[""introduced""]","[""reported to house"", ""passed house"", ""reported to senate"", ""enacted""]",2,4664
+"[""introduced""]","[""reported to house"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",11,4664
+"[""introduced""]","[""reported to house"", ""passed house"", ""reported to senate"", ""passed senate""]",3,4664
+"[""introduced""]","[""reported to house"", ""passed house"", ""reported to senate""]",17,4664
+"[""introduced""]","[""reported to house"", ""passed house""]",328,4664
+"[""introduced""]","[""reported to house"", ""passed senate"", ""enacted""]",3,4664
+"[""introduced""]","[""reported to house"", ""passed senate""]",1,4664
+"[""introduced""]","[""reported to house"", ""reported to senate"", ""passed house"", ""passed senate"", ""enacted""]",2,4664
+"[""introduced""]","[""reported to house"", ""reported to senate"", ""passed house""]",1,4664
+"[""introduced""]","[""reported to house"", ""reported to senate"", ""passed senate"", ""enacted""]",2,4664
+"[""introduced""]","[""reported to house""]",371,4664
+"[""introduced""]","[""reported to senate"", ""enacted""]",3,4664
+"[""introduced""]","[""reported to senate"", ""passed house"", ""passed senate"", ""enacted""]",2,4664
+"[""introduced""]","[""reported to senate"", ""passed house""]",1,4664
+"[""introduced""]","[""reported to senate"", ""passed senate"", ""enacted""]",65,4664
+"[""introduced""]","[""reported to senate"", ""passed senate""]",148,4664
+"[""introduced""]","[""reported to senate""]",626,4664
+"[""introduced""]",[null],3,4664

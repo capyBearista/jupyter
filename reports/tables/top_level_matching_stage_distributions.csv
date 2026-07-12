@@ -1,0 +1,92 @@
+source,matching_stages_json,count,denominator_all_records
+official,"[""agreed to by house and senate""]",2,345477
+official,"[""amended by house"", ""amended by senate""]",2,345477
+official,"[""amended by house""]",789,345477
+official,"[""amended by senate""]",624,345477
+official,"[""enacted""]",17262,345477
+official,"[""introduced"", ""agreed to by house and senate""]",3,345477
+official,"[""introduced"", ""amended by house""]",6,345477
+official,"[""introduced"", ""amended by senate""]",2,345477
+official,"[""introduced"", ""enacted""]",1,345477
+official,"[""introduced"", ""other bill versions""]",1,345477
+official,"[""introduced""]",326509,345477
+official,[],276,345477
+popular,[],342667,345477
+popular,[null],2810,345477
+short,"[""enacted"", null]",2,345477
+short,"[""enacted""]",416,345477
+short,"[""introduced"", ""enacted""]",298,345477
+short,"[""introduced"", ""passed house"", ""enacted""]",209,345477
+short,"[""introduced"", ""passed house"", ""passed senate"", ""enacted""]",454,345477
+short,"[""introduced"", ""passed house"", ""passed senate""]",66,345477
+short,"[""introduced"", ""passed house"", ""reported to senate"", ""enacted""]",26,345477
+short,"[""introduced"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",216,345477
+short,"[""introduced"", ""passed house"", ""reported to senate"", ""passed senate""]",40,345477
+short,"[""introduced"", ""passed house"", ""reported to senate""]",49,345477
+short,"[""introduced"", ""passed house""]",1206,345477
+short,"[""introduced"", ""passed senate"", ""enacted""]",141,345477
+short,"[""introduced"", ""passed senate"", ""passed house"", ""enacted""]",1,345477
+short,"[""introduced"", ""passed senate""]",466,345477
+short,"[""introduced"", ""reported to house"", ""enacted""]",11,345477
+short,"[""introduced"", ""reported to house"", ""passed house"", ""enacted""]",137,345477
+short,"[""introduced"", ""reported to house"", ""passed house"", ""passed senate"", ""enacted""]",282,345477
+short,"[""introduced"", ""reported to house"", ""passed house"", ""passed senate""]",47,345477
+short,"[""introduced"", ""reported to house"", ""passed house"", ""reported to senate"", ""enacted""]",8,345477
+short,"[""introduced"", ""reported to house"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",89,345477
+short,"[""introduced"", ""reported to house"", ""passed house"", ""reported to senate"", ""passed senate""]",15,345477
+short,"[""introduced"", ""reported to house"", ""passed house"", ""reported to senate""]",79,345477
+short,"[""introduced"", ""reported to house"", ""passed house""]",1393,345477
+short,"[""introduced"", ""reported to house"", ""passed senate"", ""enacted""]",12,345477
+short,"[""introduced"", ""reported to house"", ""passed senate""]",7,345477
+short,"[""introduced"", ""reported to house"", ""reported to senate"", ""passed house"", ""passed senate"", ""enacted""]",7,345477
+short,"[""introduced"", ""reported to house"", ""reported to senate"", ""passed house"", ""passed senate""]",1,345477
+short,"[""introduced"", ""reported to house"", ""reported to senate"", ""passed house""]",11,345477
+short,"[""introduced"", ""reported to house"", ""reported to senate"", ""passed senate"", ""enacted""]",8,345477
+short,"[""introduced"", ""reported to house"", ""reported to senate"", ""passed senate""]",11,345477
+short,"[""introduced"", ""reported to house"", ""reported to senate""]",2,345477
+short,"[""introduced"", ""reported to house""]",1263,345477
+short,"[""introduced"", ""reported to senate"", ""enacted""]",12,345477
+short,"[""introduced"", ""reported to senate"", ""passed house"", ""passed senate"", ""enacted""]",33,345477
+short,"[""introduced"", ""reported to senate"", ""passed house"", ""passed senate""]",4,345477
+short,"[""introduced"", ""reported to senate"", ""passed house""]",5,345477
+short,"[""introduced"", ""reported to senate"", ""passed senate"", ""enacted""]",108,345477
+short,"[""introduced"", ""reported to senate"", ""passed senate""]",577,345477
+short,"[""introduced"", ""reported to senate""]",2057,345477
+short,"[""introduced"", null]",1,345477
+short,"[""introduced""]",106354,345477
+short,"[""passed house"", ""enacted""]",219,345477
+short,"[""passed house"", ""passed senate"", ""enacted""]",122,345477
+short,"[""passed house"", ""passed senate""]",25,345477
+short,"[""passed house"", ""reported to senate"", ""enacted""]",6,345477
+short,"[""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",53,345477
+short,"[""passed house"", ""reported to senate"", ""passed senate""]",15,345477
+short,"[""passed house"", ""reported to senate""]",16,345477
+short,"[""passed house""]",584,345477
+short,"[""passed senate"", ""enacted"", ""conference report""]",1,345477
+short,"[""passed senate"", ""enacted"", null]",2,345477
+short,"[""passed senate"", ""enacted""]",292,345477
+short,"[""passed senate""]",459,345477
+short,"[""reported to house"", ""enacted""]",4,345477
+short,"[""reported to house"", ""passed house"", ""enacted""]",70,345477
+short,"[""reported to house"", ""passed house"", ""passed senate"", ""enacted""]",60,345477
+short,"[""reported to house"", ""passed house"", ""passed senate""]",9,345477
+short,"[""reported to house"", ""passed house"", ""reported to senate"", ""enacted""]",3,345477
+short,"[""reported to house"", ""passed house"", ""reported to senate"", ""passed senate"", ""enacted""]",14,345477
+short,"[""reported to house"", ""passed house"", ""reported to senate"", ""passed senate""]",6,345477
+short,"[""reported to house"", ""passed house"", ""reported to senate""]",18,345477
+short,"[""reported to house"", ""passed house""]",381,345477
+short,"[""reported to house"", ""passed senate"", ""enacted""]",5,345477
+short,"[""reported to house"", ""passed senate""]",1,345477
+short,"[""reported to house"", ""reported to senate"", ""passed house"", ""passed senate"", ""enacted""]",2,345477
+short,"[""reported to house"", ""reported to senate"", ""passed house""]",1,345477
+short,"[""reported to house"", ""reported to senate"", ""passed senate"", ""enacted""]",2,345477
+short,"[""reported to house""]",375,345477
+short,"[""reported to senate"", ""enacted""]",6,345477
+short,"[""reported to senate"", ""passed house"", ""passed senate"", ""enacted""]",2,345477
+short,"[""reported to senate"", ""passed house""]",1,345477
+short,"[""reported to senate"", ""passed senate"", ""enacted"", ""conference report""]",1,345477
+short,"[""reported to senate"", ""passed senate"", ""enacted""]",81,345477
+short,"[""reported to senate"", ""passed senate""]",194,345477
+short,"[""reported to senate""]",638,345477
+short,[],225679,345477
+short,[null],6,345477

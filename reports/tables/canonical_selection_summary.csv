@@ -1,0 +1,11 @@
+metric,value
+rule,top-level official_title and short_title
+total_input,345477
+eligible_pairs,119798
+missing_official_only,0
+missing_short_only,225403
+missing_both,276
+shared_stage,115134
+no_shared_stage,4664
+popular_display_policy,comparison-only; never canonical fallbacks
+portion_policy,preserved in titles_json; never canonical candidates

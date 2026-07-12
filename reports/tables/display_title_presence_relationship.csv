@@ -1,0 +1,5 @@
+diagnostic,count,denominator
+display_absent,333694,345477
+display_present_official_absent,0,345477
+display_present_matches_official_top,3317,345477
+display_present_does_not_match_official_top,8466,345477

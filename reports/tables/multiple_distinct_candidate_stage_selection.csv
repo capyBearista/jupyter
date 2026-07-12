@@ -1,0 +1,13 @@
+source,matching_stage_json,count,denominator_records_with_multiple_distinct_candidates,multiple_stage_semantics
+official,"""agreed to by house and senate""",2,2783,records contribute once per unique matching stage; counts can sum above the denominator
+official,"""amended by house""",791,2783,records contribute once per unique matching stage; counts can sum above the denominator
+official,"""amended by senate""",626,2783,records contribute once per unique matching stage; counts can sum above the denominator
+official,"""enacted""",1366,2783,records contribute once per unique matching stage; counts can sum above the denominator
+short,"""conference report""",2,7396,records contribute once per unique matching stage; counts can sum above the denominator
+short,"""enacted""",1268,7396,records contribute once per unique matching stage; counts can sum above the denominator
+short,"""introduced""",3943,7396,records contribute once per unique matching stage; counts can sum above the denominator
+short,"""passed house""",1503,7396,records contribute once per unique matching stage; counts can sum above the denominator
+short,"""passed senate""",1277,7396,records contribute once per unique matching stage; counts can sum above the denominator
+short,"""reported to house""",888,7396,records contribute once per unique matching stage; counts can sum above the denominator
+short,"""reported to senate""",1057,7396,records contribute once per unique matching stage; counts can sum above the denominator
+short,null,11,7396,records contribute once per unique matching stage; counts can sum above the denominator
