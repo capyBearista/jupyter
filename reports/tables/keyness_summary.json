@@ -1,0 +1,58 @@
+{
+  "formula": "alpha_i=official_i+short_i; alpha_0=sum_i alpha_i; delta=log((short_i+alpha_i)/(N_short+alpha_0-short_i-alpha_i))-log((official_i+alpha_i)/(N_official+alpha_0-official_i-alpha_i)); variance=sum of four reciprocal posterior-bin terms; z=delta/sqrt(variance)",
+  "input_csv_sha256": "294646ba0a8567f14401ba1a71329390a1ca71273d23d6a8aeeea8916cf62710",
+  "input_path": "../../data/processed/title_pairs.csv.gz",
+  "method": "Monroe-style weighted log-odds with pooled informative Dirichlet prior",
+  "method_version": "1",
+  "min_pooled_count": 25,
+  "schema_version": "4",
+  "stopword_base_count": 318,
+  "stopword_base_hash": "40e0a284c5b9a220efffd18d4d739fbd3270091d6ce2c75b6effe289d3be5487",
+  "stopword_count": 317,
+  "stopword_exceptions": [
+    "act",
+    "bill",
+    "law",
+    "resolution"
+  ],
+  "stopword_hash": "e11c67b9fdca426b9d994e5e391dcbd943a4419b10199265f60f2196f4d4ef3c",
+  "stopword_policy": "scikit-learn ENGLISH_STOP_WORDS, exact token matches after casefolding",
+  "stopword_version": "1.9.0",
+  "subsets": {
+    "all": {
+      "eligible_term_count": 5615,
+      "excluded_stopword_tokens": 1523164,
+      "official_tokens": 1884783,
+      "pair_count": 119798,
+      "post_stopword_tokens": 2454578,
+      "pre_stopword_tokens": 3977742,
+      "short_tokens": 569795,
+      "vocabulary_size": 24008
+    },
+    "shared_stage": {
+      "eligible_term_count": 5525,
+      "excluded_stopword_tokens": 1462769,
+      "official_tokens": 1813135,
+      "pair_count": 115134,
+      "post_stopword_tokens": 2359187,
+      "pre_stopword_tokens": 3821956,
+      "short_tokens": 546052,
+      "vocabulary_size": 23694
+    }
+  },
+  "tables": {
+    "all": {
+      "eligible_term_count": 5615,
+      "path": "weighted_log_odds_unigrams.csv",
+      "row_count": 5615,
+      "sha256": "d64e19eafecf36b90131b4291d6f760aea1edb88aed6d302c0620bc60e052ee6"
+    },
+    "shared_stage": {
+      "eligible_term_count": 5525,
+      "path": "weighted_log_odds_unigrams_shared_stage.csv",
+      "row_count": 5525,
+      "sha256": "61a16429534f45bd3616eb76b617513ffc5cfdc5f6c706c04f8573ec5559cc50"
+    }
+  },
+  "tokenizer_version": "2"
+}
