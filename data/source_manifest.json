@@ -1,0 +1,28 @@
+{
+  "manifest_version": 1,
+  "status": "local extraction audit; not a universal data or coverage claim",
+  "raw_data_committed": false,
+  "source_archive": {
+    "canonical_url": "https://cs.brown.edu/people/epavlick/congressional-bills.tgz",
+    "archive_filename": "congressional-bills.tgz",
+    "local_archive_path": "congressional-bills.tgz",
+    "byte_size": 3178283052,
+    "sha256": "d664c6929f19b5b9b1a39fda12bfb27d5ef6a3ee40d980e3eab0734ac7b2c296",
+    "acquisition_date": null,
+    "acquisition_date_note": "Unknown; not invented."
+  },
+  "extraction_contract": {
+    "root": "congressional-bills/processing",
+    "expected_json_relative_layout": "{congress}/bills/{bill_type}/{bill_type}{bill_number}/data.json"
+  },
+  "local_corpus_audit": {
+    "data_json_records": 345477,
+    "numeric_directory_shells": "6-114",
+    "populated_bill_directories": "6-11, 13-42, 82-114",
+    "empty_congresses": "12, 43-81",
+    "scope_note": "These facts describe this local extraction only, not a universal data or coverage claim."
+  },
+  "source_material": {
+    "location": "congressional-bills/"
+  }
+}

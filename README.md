@@ -1,91 +1,60 @@
-# Congressional Bills Analysis
+# Congressional Bill Titles Study
 
-Hi there! 👋
+This repository is at the **scaffolding stage** of an independently authored
+research pipeline for describing congressional bill-title text. It publishes
+Gate 2 local descriptive audit and canonicalization evidence, but not analysis
+results or completed-coverage claims.
 
-This is a personal project where I'm exploring text and vote data on bills introduced in the United States Congress. I found this dataset through Brown University's LUNAR Lab and thought it would be a great way to learn more about language, politics, and a little bit of NLP along the way.
+## Status and boundaries
 
-### Why This Repo Exists
+The planned work will describe text in bill titles and record transparent data
+handling decisions. It will not make claims about bias detection, authorial
+intent, reader comprehension, or policy quality. Results, coverage, and
+inferences will be documented only after the relevant audit and analysis are
+complete.
 
-I'm a student with a growing interest in AI / ML, but I'm still pretty new to Python and all the tools that come with it. This repo is mostly a place for me to experiment, try things out, and see what I can discover. Maybe down the line, I'll have some cool findings to share :)
+No raw corpus is committed to this repository. The local source audit is
+recorded in [`data/source_manifest.json`](data/source_manifest.json), and the
+provenance policy is in [`docs/data_provenance.md`](docs/data_provenance.md).
 
-### Project Structure
+## Repository layout
 
-The dataset is absolutely gargantuan, so here's an abstracted project structure:
+- `src/bill_titles/`: independently authored Python package scaffold.
+- `tests/`: synthetic, corpus-independent tests.
+- `data/`: tracked metadata and future annotations; raw and derived datasets
+  are intentionally ignored.
+- `docs/`: research design, provenance, methodology, and AI-assistance notes.
+- `reports/` and `notebooks/`: Gate 2 descriptive audit outputs and future
+  authored outputs.
+- `congressional-bills/`: inherited Brown LUNAR Lab starter material and local
+  dataset-related source material; see
+  [`congressional-bills/LEGACY.md`](congressional-bills/LEGACY.md).
 
-```
-congressional-bills/
-├── analysis/
-│   ├── old/
-│   │   ├── summary_stats.py
-│   │   └── [data files here]
-│   ├── resort.py
-│   ├── short_vs_official_logprob.py
-│   ├── summary_stats.py
-│   ├── tmp
-│   └── [data files here]
-├── lm/
-│   ├── ids.txt
-│   ├── official_titles/
-│   │   └── [official title data files here]
-│   ├── preprocess.py
-│   ├── pull_out_logprob.py
-│   ├── score_sents.py
-│   ├── short_titles/
-│   │   └── [short title data files here]
-│   ├── train_and_score_srilm.sh
-│   ├── train_and_score.sh
-│   └── [data files here]
-└── processing/
-    ├── clean_up.py
-    ├── get_titles_and_summaries.py
-    ├── get_titles.py
-    ├── pos.sh
-    ├── preprocess.py
-    ├── parsing/
-    │   ├── aligned_titles.py
-    │   ├── clean.py
-    │   ├── clean.pyc
-    │   ├── filter_ppdb_pairs_to_vocab.py
-    │   ├── get_vocab.py
-    │   ├── log_odds.py
-    │   ├── logs/
-    │   ├── metadata/
-    │   ├── paired_log_odds.py
-    │   ├── run-parser-local.sh
-    │   ├── run-parser.sh
-    │   ├── score_pairs.py
-    │   ├── setup_dirs.py
-    │   ├── titles-parsed/
-    │   ├── titles-raw/
-    │   ├── uniq.py
-    │   └── [parsing/ data files here]
-    └── [processing/ data files here]
+## Development
+
+Python 3.11 or newer is recommended. Install the project with its development
+dependencies, then run the lightweight checks:
+
+```bash
+python -m pip install -e ".[dev]"
+ruff check .
+ruff format --check .
+pytest
 ```
 
-- **analysis/**: Scripts and data for analyzing bill text and statistics.
-- **lm/**: Language modeling scripts and data, including tools for working with official and short titles.
-- **processing/**: Scripts for cleaning, extracting, and preparing data. The `parsing/` subfolder contains more specialized scripts and data for parsing bill titles and related information.
+These checks use no full raw corpus and do not run a corpus pipeline.
 
-### What I'm Curious About
+## Attribution and licensing
 
-LUNAR Lab's page poses a few interesting questions, specifically, I'm looking at:
+The inherited `congressional-bills/` material is distinct from the new work in
+this scaffold and remains attributed to its original source. This repository
+does not make a repo-wide license grant or license claim over inherited
+material. See [`NOTICE.md`](NOTICE.md) and
+[`congressional-bills/LEGACY.md`](congressional-bills/LEGACY.md).
 
-1. **Can I find pairs of phrases that mean the same thing but are used in very different ways?**
-   - For example, phrases like ["chain migration" vs. "family reunification"](https://www.law.georgetown.edu/immigration-law-journal/archives/a-primer-on-family-reunification-chain-migration/) or "estate tax" vs. "death tax". They refer to the exact same thing but hold certain connotations. What other examples can be found?
+## Documentation
 
-2. **Are there patterns in how "short titles" are used for congressional bills?**
-   - Is there a way to predict or generate a short title from a longer, official bill title? What trends or quirks show up in the data? I'd ultimately like to be able to generate short titles from the official ones.
-
-### Important Links
-
-LUNAR Lab Starter Projects: https://cs.brown.edu/people/epavlick/join-us.html
-
-Dataset (it might take a while to download): https://cs.brown.edu/people/epavlick/congressional-bills.tgz
-
-### Getting Started (If You're Like Me)
-
-If you somehow happen upon this repository and are also new to Python or just curious, feel free to poke around. I'm still figuring things out, so this repo might be a bit messy or experimental. Maybe you'll find something interesting, or maybe you'll have ideas for what to try next. I'd love to hear from you!
-
----
-
-Thanks for stopping by! If I end up with results or insights worth sharing, I'll try to update this README or post about it somewhere. Until then, happy exploring! 🔭
+- [Research design](docs/research_design.md)
+- [Data provenance](docs/data_provenance.md)
+- [Methodology](docs/methodology.md)
+- [AI assistance](docs/ai_assistance.md)
