@@ -1,7 +1,7 @@
 # Review log
 
-This is a public schema template. No substantive review rows, findings, or
-consequential changes exist yet.
+This log records consequential method/code reviews and post-draft case critiques,
+including findings, human dispositions, and consequential changes.
 
 ## Method and code reviews
 
