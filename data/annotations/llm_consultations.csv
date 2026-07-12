@@ -1,0 +1,1 @@
+consultation_uuid,sanitized_packet_sha256,frozen_guide_version,agent_version,model_id,model_config,timestamp_utc,output_reference,suggested_labels,guide_citations,uncertainty,abstain,initial_human_labels,final_human_labels,disposition,consequential_change,rationale
